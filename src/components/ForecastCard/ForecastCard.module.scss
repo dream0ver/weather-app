@@ -1,0 +1,23 @@
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  border: 2px solid white;
+  height: 240px;
+  min-width: 180px;
+  max-width: 180px;
+  padding: 1rem;
+  border-radius: 16px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba($color: #000000, $alpha: 0.05);
+
+  span {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+  .forecast_img {
+    width: 100%;
+    height: 50%;
+  }
+}

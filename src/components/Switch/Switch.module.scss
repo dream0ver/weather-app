@@ -1,0 +1,38 @@
+.switch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    &.checked {
+        label {
+            span {
+                right: 2px;
+            }
+        }
+    }
+
+    label {
+        cursor: pointer;
+        position: relative;
+        width: 54px;
+        height: 30px;
+        border-radius: 16px;
+        background: transparent;
+        border: 1px solid white;
+        display: flex;
+        align-items: center;
+        padding: 0 2px;
+
+        span {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: white;
+        }
+    }
+
+    input {
+        display: none;
+    }
+}

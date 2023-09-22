@@ -1,0 +1,44 @@
+.container {
+  height: 50px;
+
+  .search {
+    outline: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 1rem;
+    width: 100%;
+    background: transparent;
+
+    &::placeholder {
+      opacity: 0.8;
+      color: white;
+    }
+  }
+
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .button_group {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      .search_icon {
+        content: url("../../assets/search_icon.svg");
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+      }
+
+      .location_icon {
+        content: url("../../assets/location.svg");
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}

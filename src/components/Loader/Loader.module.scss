@@ -1,0 +1,7 @@
+.loader {
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: scale(6);
+    content: url(./loading.svg);
+}
