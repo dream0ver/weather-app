@@ -53,7 +53,7 @@
 
       & > div {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
       }
     }
 
@@ -101,6 +101,9 @@
       .desktop_image {
         display: none;
       }
+      .temp {
+      font-size: 10rem;
+    }
     }
 
     .location_text {
