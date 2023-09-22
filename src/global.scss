@@ -18,6 +18,7 @@ div {
   background: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 
   & > div {
     max-width: 1100px;
